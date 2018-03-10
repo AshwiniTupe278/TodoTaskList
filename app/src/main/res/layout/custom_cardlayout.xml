@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="15dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:elevation="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/tvTaskName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:text="Movie Name"
+                android:textStyle="bold"
+                android:textColor="@color/primary_text"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/tvTaskDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Movie Name"
+                android:textColor="@color/primary_text"
+                android:textSize="14dp"
+                android:layout_below="@+id/ivEditTask"
+                android:layout_alignLeft="@+id/tvTaskName"
+                android:layout_alignStart="@+id/tvTaskName" />
+
+            <ImageView
+                android:id="@+id/ivEditTask"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_mode_edit_black_24dp" />
+
+            <ImageView
+                android:id="@+id/ivDelete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ivEditTask"
+                android:src="@drawable/ic_delete_black_24dp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

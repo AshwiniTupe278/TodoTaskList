@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TodoTask</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="incomplete_task">Incomplete Task</string>
+    <string name="complate_task">Complete Task</string>
+    <string name="empty_field_msg">Please enter To Do Task</string>
+    <string name="error_msg">Some thing went wrong</string>
+    <string name="no_task_msg">No Tasks available</string>
+    <string name="task_empty_msg">Please enter To Do Task</string>
+    <string name="task_delete_msg">Task Deleted Successfully</string>
+    <string name="task_delete_error">Task not Deleted</string>
+    <string name="task_add_success_msg">Task Added Successfully</string>
+</resources>
